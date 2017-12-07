@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/TheWorldIsEnging"
+        android:title="The World Is Ending…"/>
+    <item
+        android:id="@+id/TheKarmicConstitution"
+        android:title="The Karmic Constitution"/>
+    <item
+        android:id="@+id/ContactUs"
+        android:title="Contact Us"/>
+
+    <item
+        android:id="@+id/TodaysDailyPak"
+        android:title="Today\'s Daily PAK!"/>
+
+    <item
+        android:id="@+id/CreateAndSendInvitation"
+        android:title="Create &amp; Send Invitation"/>
+
+    <item
+        android:id="@+id/TheKarmaClub"
+        android:title="The Karma Club"/>
+
+    <item
+        android:id="@+id/KarmaClubLevels"
+        android:title="Karma Club Levels"/>
+
+    <item
+        android:id="@+id/KarmaClubRewards"
+        android:title="Karma Club Rewards"/>
+
+    <item
+        android:id="@+id/SocialResponsibilityAndYou"
+        android:title="Social Responsibility &amp; You"/>
+
+    <item
+        android:id="@+id/VolunteerPrograms"
+        android:title="Volunteer Programs"/>
+
+    <item
+        android:id="@+id/Donations"
+        android:title="Donate"/>
+
+    <item
+        android:id="@+id/PersonoftheWeek"
+        android:title="Person of the Week!"/>
+
+    <item
+        android:id="@+id/CauseOfTheMonth"
+        android:title="Cause of the Month"/>
+    <item
+        android:id="@+id/SixTeenThingsKidsCando"
+        android:title="16ThingsKidsCanDo.Org"/>
+    <item
+        android:id="@+id/TShirtAndApparel"
+        android:title="T-Shirts &amp; Apparel"/>
+    <item
+        android:id="@+id/ShopAndSupport"
+        android:title="Shop &amp; Support"/>
+    <item
+        android:id="@+id/Credit"
+        android:title="Credits"/>
+
+</menu>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Join The Karma Club"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="0dp"
+            android:text="Always 100% Free"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/firstnameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lastnameEditText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textColor="@android:color/background_dark"
+                android:hint="Firstname*"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/lastnameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Lastname*"
+                android:textColor="@android:color/background_dark"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nicknameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Nickname"
+                android:textColor="@android:color/background_dark"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/cityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="City*"
+                android:textColor="@android:color/background_dark"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/stateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="State*"
+                android:textColor="@android:color/background_dark"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/countryEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Country*"
+                android:textColor="@android:color/background_dark"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Email*"
+                android:textColor="@android:color/background_dark"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailConfirmationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Email Confirmation*"
+                android:textColor="@android:color/background_dark"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/facebookEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Facebook"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/twitterEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Twitter"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/otherSocialMediaEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:ems="10"
+            android:hint="Other Social Media"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textShortMessage" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_weight="2" />
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Why Are You Joining The Karma Club?*"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/longQuestion1EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=">"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textShortMessage" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@android:color/background_dark"
+            android:text="What is The Highest Karma Club Level You Want to Obtain?*"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/longQuestion2EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=">"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textShortMessage" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="How Did You Learn About Planned Acts Of Kindness?*"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/longQuestion3EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@android:color/background_dark"
+            android:hint=">"
+            android:inputType="textShortMessage" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@android:color/background_dark"
+            android:text="What Do You Hope To Accomplish Through Our Organization?*"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/longQuestion4EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=">"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textShortMessage" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@android:color/background_dark"
+            android:text="What Organization, Companies Or Clubs Would You Be Interested In Contacting About Our PAK Program?"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/longQuestion5EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=">"
+            android:textColor="@android:color/background_dark"
+            android:inputType="textShortMessage" />
+
+        <EditText
+            android:id="@+id/longQuestion6EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@android:color/background_dark"
+            android:hint="Message: "
+            android:inputType="textShortMessage" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/firstnameEditText"
+            android:layout_marginTop="14dp"
+            android:text="Submission Agreement:*" />
+
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@android:color/background_dark"
+            android:text='By submitting your information you hereby give 16 Things Kids Can Do, Inc. and \"Planned Acts of Kindness\" the right to display your submission information (not including contact information such as email, phone number), first name, last initial, images &amp; testimonial in our books, web sites, videos, blogs and promotional materials. 16 Things has the sole discretion to accept, edit or reject any and all submitted content. Thank You!' />
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent"
+            android:elevation="0dp"
+            android:padding="18dp"
+            android:text="Sign Up"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

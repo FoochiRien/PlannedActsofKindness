@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <Button
+        android:id="@+id/mBtnSubmit"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Send Now" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please invite your family and friend to joib our club."
+        android:layout_above="@+id/sender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp" />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText_to"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android:hint="Your Friend's Nickname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mBtnSubmit"
+        android:layout_alignLeft="@+id/nickname"
+        android:layout_alignStart="@+id/nickname"
+        android:layout_marginBottom="177dp"
+        android:ems="10"
+        android:hint="Your Friend's Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nickname"
+        android:layout_alignLeft="@+id/nickname"
+        android:layout_alignStart="@+id/nickname"
+        android:layout_marginBottom="67dp"
+        android:ems="10"
+        android:hint="Your Name"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

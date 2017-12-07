@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="18dp"
+    android:orientation="vertical"
+    tools:context="plannedactsofkindness.org.plannedactsofkindness.UI.MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/paklogo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Planned Acts\nOf Kindness"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/discription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Making The World\nA Better Place To Live,\nOne PAK At A Time."
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/discription2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The More Good You Do...\nThe Higher Your Level &amp;\nThe Greater Your Reward.\n\nAfter all, What Goes Around, Comes Around!"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/discription"
+        android:layout_centerHorizontal="true" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/reusable_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/splashImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@android:drawable/dialog_holo_dark_frame" />
+
+</RelativeLayout>

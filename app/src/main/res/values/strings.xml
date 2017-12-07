@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Planned Acts of Kindness</string>
+
+    <string-array name="greeding_array">
+        <item>Just their name!</item>
+        <item>Dear</item>
+        <item>Hey</item>
+        <item>Hi</item>
+        <item>Hello</item>
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>What\'s up</item>
+    </string-array>
+
+    <string-array name="sign_off_array">
+        <item>Just my name!</item>
+        <item>Best</item>
+        <item>Get back to me</item>
+        <item>Hugs</item>
+        <item>Thanks</item>
+        <item>Take Care</item>
+        <item>Sincerely</item>
+        <item>Love</item>
+        <item>Your friend</item>
+        <item>Hugs &amp; Kisses</item>
+        <item>Respectfully yours</item>
+        <item>Forever yours</item>
+        <item>Many Thanks</item>
+        <item>Fondly</item>
+        <item>xoxo</item>
+        <item>Best Wishes</item>
+        <item>Live Long &amp; Prosper</item>
+        <item>Later Dude</item>
+        <item>Be Well</item>
+        <item>Lots of Love</item>
+    </string-array>
+
+    <string name="html">
+        <![CDATA[
+        <h1>Main Title</h1>
+        <h2>A sub-title</h2>
+        <p>This is some html. Look, here\'s an <u>underline</u>.</p>
+        <p>Look, this is <em>emphasized.</em> And here\'s some <b>bold</b>.</p>
+        <p>This is a UL list:
+        <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ul>
+        <p>This is an OL list:
+        <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ol>
+        ]]>
+    </string>
+
+
+</resources>
