@@ -2,6 +2,7 @@ package plannedactsofkindness.org.plannedactsofkindness.UI;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.WebView;
 
 import plannedactsofkindness.org.plannedactsofkindness.Function.Reusable;
@@ -10,6 +11,7 @@ import plannedactsofkindness.org.plannedactsofkindness.R;
 
 public class KarmaPage extends AppCompatActivity {
 
+    public static final String TAG = "KARMAPAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +20,7 @@ public class KarmaPage extends AppCompatActivity {
 
         text getContent = new text();
         String welcomeKarma = getContent.getWelcomeKarma();
+        Log.d(TAG, "onCreate: " + welcomeKarma);
         WebView webView = (WebView)findViewById(R.id.welcomeKarmaWebView);
         webView.loadDataWithBaseURL(null, welcomeKarma, "text/html", "utf-8", null);
         webView.setBackgroundColor(Color.TRANSPARENT);

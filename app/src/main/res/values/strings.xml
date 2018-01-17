@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Planned Acts of Kindness</string>
+    <string name="paktitle">Planned Acts of Kindness</string>
+
+    <!---Activity Signin -->
+    <string name="si_username">Username</string>
+    <string name="si_password">Password</string>
+    <string name="si_signin">Sign-In</string>
+    <string name="si_join">Join PAK</string>
+    <string name="si_forgot">Forgot Password?</string>
+    <string name="si_conditions">Terms and Conditions</string>
+    <string name="si_notice">Notice</string>
+    <string name="si_dailypak">Todays Daily PAK</string>
 
     <string-array name="greeding_array">
         <item>Just their name!</item>
@@ -55,6 +66,100 @@
         </ol>
         ]]>
     </string>
+    <!--home_layout -->
+    <string name="todays_daily_pak">Todays Daily PAK</string>
+    <string name="karmaclub">The Karma Club</string>
+    <string name="join_pak">Join PAK</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="person_of_week">Person of the Week</string>
+    <string name="cause_of_month">Cause of the Month</string>
+    <string name="get_involved">Getting Involved</string>
+    <!-- toolbar_menu -->
+    <string name="toolbar_home">Home</string>
+    <string name="toolbar_share">Share</string>
+    <!-- drawer_menu -->
+    <string name="the_karma_club">The Karma Club</string>
+    <string name="getting_involved">Getting Involved</string>
+    <string name="support_pak">Support PAK</string>
+    <string name="about_pak">About PAK</string>
+    <!--Karmic Constitution -->
+    <string name="the_karmic_constitution">The Karmic Constitution</string>
+    <string name="kconstitution_article1"><![CDATA[We the Children of the World Unite as One People
+    in Order to Preserve, Protect, Nurture and Grow the Health of Our Planet and Our Global Community;
+    and, do ordain and establish this Karma Constitution for All."\n"Section 1. The Karma Club is hereby
+    designated at the Global Organization for Supporters of the Karma Constitution."\n"Section 2.Joining
+     the Karma Club is, and always will be, free and open to all the Children of the World regardless
+     of race, color, gender, age, culture, social, economic, political condition or religious ideas.
+     Supporters of the Karma Constitution who join the Karma Club are initially referred to as Members;
+     e.g., Members of the Human Race."\n"Section 3.Members of the Karma Club are encouraged to make the
+     following PAK Pledge: “I hereby make a PAK to treat others with respect & kindness and to go through
+     life from this day forward acting towards others as I would wish to be treated myself.”"\n"Section 4.
+     Members of the Karma Club are encouraged to distribute their PAK Pledges through Social Media for
+     all the world to see.]]></string>
+    <string name="kconstitution_article2">Members of the Karma Club are encouraged to perform four
+        different types of activities during the course of each month. Members that perform the requisite
+        number of actions in all four activities can level up to the next Karmic level."\n"Section 1.
+        Action: Members of the Karma Club are encouraged to take action for the benefit of their family,
+        friends, co-workers and service points by completing and sharing their finished Planned Acts
+        of Kindness on a daily basis."\n"Section 2.Outreach: Members of the Karma Club are encouraged
+        to inspire others to take action by having them join the Karma Club and take the PAK Pledge."\n"
+        Section 3.Volunteering: Members of the Karma Club are encouraged to show their commitment to
+        the Bettering the World by Volunteering and taking part in “16 Things Kids’ Can Do” programs
+        around the world."\n"Section 4. Support: Members of the Karma Club are encouraged to Support
+        “16 Things Kids’ Can Do” outreach programs by securing donations, sponsorships and grants.</string>
+    <string name="kconstitution_article3">Section 1.The Executive Power shall be vested in an Executive
+        Director of the Karma Club, who shall be one and the same individual as the President of 16
+        Things Kids Can Do, Inc."\n"Section 2.The Executive Director shall have the duty and responsibility
+        to appoint the President, Vice-President, Secretary, Treasurer, etc. of each Karma Club around
+        the World."\n"Section 3. All Karma Club Officials shall serve at the discretion of the Executive Director.</string>
+    <string name="kconstitution_article4">Section 1. Anyone who is a member of the Karma Club can be
+        nominated for “Person of the Week.”"\n"Section 2. Only Members of the Karma Club can nominate
+        another member for “Person of the Week.”"\n"Section 3. The final selection for the “Person of
+        the Week” shall reside with the Executive Director.</string>
+    <string name="kconstitution_article5">Section 1. Anyone who is a member of the Karma Club can nominate
+        a subject for the “Cause of the Month.”"\n"Section 2. Only Members of the Karma Club can vote on
+        their choice for the “Cause of the Month.”"\n"Section 3. The final selection for the “Cause
+        of the Month” shall reside with the Executive Director.</string>
+    <string name="kconstitution_article6">Section 1. Members of the Karma Club are encouraged to build
+        connections with others in the Global Community to further the mission and vision of the Karma
+        Club, Planned Acts of Kindness, and 16 Things Kids Can Do, Inc."\n"Section 2. Members of the
+        Karma Club are encouraged to submit new ideas and proposals with the objective of furthering
+        the mission and vision of the Karma Club, Planned Acts of Kindness, and 16 Things Kids Can Do, Inc.</string>
+    <string name="kconstitution_article7">This Constitution, and the Principles contained herein shall
+        be made in Pursuance thereof; and all Treaties made, or which shall be made, under the Authority
+        of the Children of the World, shall be the supreme Law of the Land; and the Members in every
+        Community shall be bound thereby, anything in the Constitution or Laws of any Nation to the Contrary notwithstanding.</string>
+    <string name="kconstitution_conclusion">Done by the Unanimous Consent of the Members present the
+        first Day of July in the Year of our Lord two thousand and seventeen hundred in Witness whereof
+        We have hereunto subscribed our Names:</string>
+    <string name="kconstitution_titles">Lyle Benjamin,"\n"Executive Director,"\n"Ellisen Wang,"\n"Briana Garcia,"\n"Rob Adamo</string>
+    <!-- Karma Welcome -->
+    <string name="welcome_reasons">Purely entertainment"\n"Bored"\n"Nothing Else To Do"\n"Atoning for
+        past transgressions"\n"Want to make a difference in the lives of others"\n"Want to make a difference
+        in your own life"\n"Want a chance to score some loot"\n"Want to impress others"\n"Want a hobby"\n"Your
+        old club kicked you out"\n"It's 100% free to join"\n"It's way cheaper than a dating site"\n"Looking
+        for the meaning of life"\n"College Credit Community service points"\n"Brownie points"\n"Lost a
+        bet"\n"Won a bet"\n"Hedging your bets (and if you know what this means, it might be one of your reasons)</string>
+    <string name="welcome_karma_2">We all have our own reasons for being here. No. Not the reason we
+        are on the planet, but why we are on this App. Right here, right now.</string>
+    <string name="welcome_karma">Welcome to the Karma Club</string>
+    <!--Karma Rewarded -->
+    <string name="kreward_1">Members with active Level Certificates are automatically eligible to receive the Daily Gift Giveaway (AKA the Karma Come around) based on their completed levels. *Eligible PAKers can receive a maximum of one Karma Come around gift per month.</string>
+    <string name="kreward_2">PAKers can only move up one level per month by achieving all four objectives in the month. Failure to maintain all four level objectives by the end of each month will result in falling back to the previous months level.</string>
+    <string name="kreward_3">Become a member now, and pass it on through your social network. The month after we reach 100,000 members, the world will wake up to a new PAK each day!</string>
+    <!--Karma Levels -->
+    <string name="kclub_work_question">How Does The Karma Club Work?</string>
+    <string name="kclub_work_answer">Everyone that joins the Karma Club starts off as member. The goal each month is to perform enough activities in four different objectives to move up a level.</string>
+    <string name="kclub_take_action">Take Action!</string>
+    <string name="kclub_action_steps">Your four objectives: #1: Completed PAKs per month #2: Inspire others to take PAK Pledge #3: Volunteer on 16Things programs #4: Help with Donations and Sponsorships</string>
+    <string name="kclub_levelup">Move Up To The Next Level!</string>
+    <string name="kclub_leveluppt2">Obtain all four objectives during a month and move up to the next level the following month.</string>
+    <string name="kclub_get_rewarded">Get Rewarded!</string>
+    <string name="kclub_reward_details">When you Level Up during a month, you earn your Active Member Level Certificate, issued at the beginning of the following month.</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 
 
 </resources>

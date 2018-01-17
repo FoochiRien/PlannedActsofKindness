@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     useLibrary 'org.apache.http.legacy'
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "plannedactsofkindness.org.plannedactsofkindness"
         minSdkVersion 15
@@ -27,8 +27,12 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile files('libs/activation.jar')
-    compile 'com.android.support:multidex:1.0.0' //Just add try to fix Jun8
+    compile 'com.android.support:multidex:1.0.0'
+    //Just add try to fix Jun8
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+    implementation 'com.squareup.picasso:picasso:2.3.2'
+    implementation 'com.android.support:support-v4:25.3.1'
+    implementation 'com.android.support:design:25.3.1'
 }

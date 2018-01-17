@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/drawer_karma_club"
+        android:title="@string/the_karma_club"/>
+
+    <item
+        android:id="@+id/drawer_getinvolved"
+        android:title="@string/getting_involved"/>
+
+    <item
+        android:id="@+id/drawer_supportpak"
+        android:title="@string/support_pak"/>
+
+    <item
+        android:id="@+id/drawer_aboutpak"
+        android:title="@string/about_pak"/>
+
+
+</menu>
